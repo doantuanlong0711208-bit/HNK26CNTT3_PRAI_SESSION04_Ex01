@@ -1,0 +1,13 @@
+{
+  "status": "SUCCESS",
+  "extracted_data": {
+    "customer_name": "Tuấn",
+    "order_id": "#TN123",
+    "product": "Tai nghe",
+    "purchase_date": "25/09/2023",
+    "issue": "Tịt 1 bên"
+  },
+  "chain_of_thought": "B1: Lấy đủ thông tin. B2: Không thiếu Mã ĐH/Ngày mua -> Bỏ qua lỗi. B3: Từ 25/09/2023 đến 20/10/2023 là 25 ngày. 25 < 30 ngày -> Thuộc diện Đổi mới miễn phí. Khách đang bực bội -> Cần xin lỗi chân thành ở B4.",
+  "decision": "Đổi mới miễn phí",
+  "email_draft": "Kính gửi anh Tuấn, TechNova thành thật xin lỗi vì sự cố với tai nghe của anh khiến anh phiền lòng. Đơn hàng #TN123 mới mua cách đây 25 ngày nên hoàn toàn đủ điều kiện Đổi mới miễn phí. Anh vui lòng mang sản phẩm ra cửa hàng gần nhất để chúng tôi đổi ngay sản phẩm mới cho anh nhé. Mong anh thông cảm ạ!"
+}
